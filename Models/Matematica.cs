@@ -10,6 +10,7 @@ namespace Construtores_Propriedades_Delegates_e_Eventos_em_.NET.Models
             X = x;
             Y = y;
 
+            //Inclui evento.
             Calculadora.EventoCalculadora += EventHandler;
         }
 

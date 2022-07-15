@@ -12,10 +12,11 @@ internal class Program
     {
 
 
-
+        static void IncluiEvento()
+        {
         Matematica m = new Matematica(10, 20);
         m.Somar();
-        
+        }
 
 
         static void Delegate()
